@@ -1,7 +1,7 @@
-import { Google } from "@mui/icons-material";
+import { Link as RouterLink } from "react-router-dom";
 import { Button, Link, TextField, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import { Link as RouterLink } from "react-router-dom";
+import { Google } from "@mui/icons-material";
 import { AuthLayout } from "../layout/AuthLayout";
 
 export function LoginPage() {
@@ -10,7 +10,12 @@ export function LoginPage() {
       <form>
         <Grid container spacing={2}>
           <Grid size={12}>
-            <TextField label="Email" type="email" fullWidth />
+            <TextField
+              label="Email"
+              type="email"
+              placeholder="johndoe@email.com"
+              fullWidth
+            />
           </Grid>
           <Grid size={12}>
             <TextField label="Password" type="password" fullWidth />

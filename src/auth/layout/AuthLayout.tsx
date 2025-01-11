@@ -23,6 +23,7 @@ export function AuthLayout({ children, title = "" }: Props) {
       <Grid
         size={{ xs: 12, md: 6, lg: 4 }}
         sx={{
+          maxWidth: "600px",
           padding: 3,
           borderRadius: 2,
           backgroundColor: "white",
