@@ -1,3 +1,11 @@
+import { Typography } from "@mui/material";
+
 export function JournalPage() {
-  return <h1>JournalPage</h1>;
+  return (
+    <>
+      <Typography component="h1" variant="h3">
+        JournalPage
+      </Typography>
+    </>
+  );
 }
